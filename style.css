@@ -149,3 +149,9 @@ width: 100%;
         margin: 4 2rem;
       }
 }
+
+@media screen and (max-width: 650px) {
+    .github__link {
+        margin-bottom: 2rem;
+    }
+}
