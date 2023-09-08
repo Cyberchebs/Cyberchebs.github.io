@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <div class="content">
+      <div class="content-header">
+        <h1 data-testid="slackUserName">Slack username :Nigerian gamer Boy</h1>
+        <img
+          src="boy.png"
+          alt="Nigerian gamer Boy"
+          data-testid="slackDisplayImage"
+        />
+        <p data-testid="myTrack">Track: frontend developer</p>
+      </div>
+      <div class="content__info">
+        <div class="content__info-utc">
+          <h1>UTC</h1>
+          <p id="utctime" data-testid="currentUTCTime">12:00:00</p>
+        </div>
+        <div class="content__info-day">
+          <h1>Day</h1>
+          <p id="currentDayOfWeek" data-testid="currentDayOfTheWeek"></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="github__link">
+      <p>
+        <box-icon type="logo" name="github" class="logo"></box-icon>click here
+        <a data-testid="githubURL" href=""> to visit repo</a>
+      </p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

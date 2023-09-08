@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    background: #040C18;
+}
+
+.content {
+    display: flex;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    
+
+}
+
+.content-header p,
+.content-header h1 {
+   font-family: Poppins;
+   color:  #FFFFFF;
+   
+}
+
+.content-header p {
+  margin-top: 1rem;
+}
+
+.content-header {
+   display: flex;
+   flex: 1;
+   align-items: flex-start;
+   justify-content: center;
+   flex-direction: column;
+
+   margin-top: 4rem;
+
+}
+
+.content-header img {
+    height: 300px;
+    margin-top: 1rem;
+    border-radius: 5px;
+}
+
+.content-header h1 {
+    text-align: left;
+}
+
+.content__info {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+
+.content__info-day h1,
+.content__info-day p {
+    font-family: Poppins;
+    color: #FFFFFF;
+    text-align: center;
+
+}
+
+.content__info-day h1 {
+    color: #FFFFFF;
+}
+
+.content__info-utc h1,
+.content__info-utc p {
+    font-family: Poppins;
+    color: #FFFFFF;
+    text-align: center;
+
+}
+
+.content__info-utc h1 {
+    color: #FFFFFF;
+}
+
+.github__link   
+{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 3rem;
+width: 100%;
+}
+
+.github__link p {
+    font-family: Poppins;
+    border: 2px solid #FFFFFF;
+    border-radius: 8px;
+    color: black;
+    cursor: pointer;
+    outline: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 0.5rem;
+    text-align: center;
+    background: #FFFFFF;
+
+}
+
+.github__link p a {
+    outline: none;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 2px;
+
+}
+
+.logo {
+    background: #FFFFFF;
+}
+
+
+
+
+@media screen and (max-width: 650px) {
+      .content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left:1rem ;
+      }
+      
+      .content-header {
+        align-items: center;
+        justify-content: center;
+      }
+
+      .content-header h1 {
+        font-size: 18px;
+        text-align: center
+      }
+
+      .content__info-utc {
+    
+      }
+
+
+      .content__info {
+        margin-top: 2rem;
+        width: 100%;
+        margin: 4 2rem;
+      }
+}
